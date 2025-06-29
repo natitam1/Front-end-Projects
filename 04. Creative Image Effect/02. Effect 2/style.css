@@ -11,6 +11,7 @@ body {
   height: 30rem;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .container img {
@@ -22,16 +23,15 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 25%;
   width: 100%;
   /* center the content */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  transition: all 0.5s;
+  color: white;
   background: rgb(23, 23, 23);
+  transition: all 0.5s;
   transform: translateY(100%);
 }
 
